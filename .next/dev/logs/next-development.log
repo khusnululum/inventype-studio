@@ -1,0 +1,287 @@
+[00:00:00.850] Server  LOG     ✓ Ready in 537ms
+[00:00:01.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:05.890] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:00:47.752] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:53.321] Server  LOG     ✓ Compiled in 723ms
+[00:02:58.271] Server  LOG     ✓ Compiled in 109ms
+[00:05:28.053] Server  LOG     ✓ Compiled in 82ms
+[00:05:37.198] Server  LOG     ✓ Compiled in 53ms
+[00:05:39.355] Server  LOG     ✓ Compiled in 65ms
+[00:05:45.469] Server  LOG     ✓ Compiled in 60ms
+[00:06:17.862] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:29.706] Server  LOG     ✓ Compiled in 87ms
+[00:09:30.696] Browser ERROR   uncaughtError: ReferenceError: dotX is not defined
+[00:09:41.508] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:09:41.557] Server  LOG     ✓ Compiled in 53ms
+[00:09:41.688] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:10:08.032] Server  LOG     ✓ Compiled in 269ms
+[00:10:08.140] Browser ERROR   ./app/layout.tsx:5:1
+Export CustomCursor doesn't exist in target module
+  3 | import { Navbar } from "@/components/sections/Navbar";
+  4 | import { Footer } from "@/components/sections/Footer";
+> 5 | import { CustomCursor } from "@/components/ui/CustomCursor";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 | export const metadata: Metadata = {
+  8 |   title: "Inventype Studio — Independent Type Foundry",
+
+The export CustomCursor was not found in module [project]/components/ui/CustomCursor.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:10:16.721] Server  LOG     ✓ Compiled in 112ms
+[00:10:37.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:28.843] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:13:48.539] Server  LOG     ✓ Compiled in 110ms
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:14:00.024] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:07.261] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:15:10.272] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:16:36.854] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:02.909] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:18:27.540] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:18:27.541] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:20:24.940] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:21:50.570] Browser ERROR   A param property was accessed directly with `params.slug`. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:24:48.742] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:48.743] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:48.788] Server  LOG     ✓ Compiled in 95ms
+[00:24:48.897] Browser ERROR   ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:49.127] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:49.128] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:49.272] Browser ERROR   ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClient'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:14.450] Browser ERROR   ./app/typefaces/[slug]/page.tsx:6:1
+Export FontDetailClient doesn't exist in target module
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+The export FontDetailClient was not found in module [project]/app/typefaces/[slug]/FontDetailClient.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:25:20.152] Browser ERROR   ./app/typefaces/[slug]/FontDetailClient.tsx:229:4
+Parsing ecmascript source code failed
+  227 | | Masalah | Penjelasan |
+  228 | |---|---|
+> 229 | | `"use client"` + `notFound()` | `notFound()` hanya bisa di Server Component |
+      |    ^^^^^^^^^^^^
+  230 | | `params` di Client Component | Next.js 14 hanya inject `params` ke Server Component |
+  231 | | Tidak ada `generateStaticParams` | Tanpa ini, route dinamis tidak di-generate saat build |
+  232 | 
+
+Expected ';', '}' or <eof>
+
+Import trace:
+  Server Component:
+    ./app/typefaces/[slug]/FontDetailClient.tsx
+    ./app/typefaces/[slug]/page.tsx
+[00:25:20.152] Browser ERROR   ./app/typefaces/[slug]/page.tsx:6:1
+Export FontDetailClient doesn't exist in target module
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClient";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+The export FontDetailClient was not found in module [project]/app/typefaces/[slug]/FontDetailClient.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[00:25:25.274] Server  LOG     ✓ Compiled in 86ms
+[00:25:25.638] Server  LOG     ✓ Compiled in 65ms
+[00:25:25.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:30.743] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClien'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClien";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:30.744] Server  ERROR   ⨯ ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClien'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClien";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:25:30.785] Server  LOG     ✓ Compiled in 68ms
+[00:25:30.895] Browser ERROR   ./app/typefaces/[slug]/page.tsx:6:1
+Module not found: Can't resolve './FontDetailClien'
+  4 | import { fonts } from "@/lib/fonts";
+  5 | import { notFound } from "next/navigation";
+> 6 | import { FontDetailClient } from "./FontDetailClien";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Props {
+  9 |   params: Promise<{ slug: string }>; // ← Next.js 15: params adalah Promise
+
+https://nextjs.org/docs/messages/module-not-found
+[00:25:32.893] Server  LOG     ✓ Compiled in 59ms
+[00:25:33.303] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:40.540] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:54.096] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:30:36.052] Server  LOG     ✓ Compiled in 72ms
+[00:33:58.188] Server  LOG     ✓ Compiled in 131ms
+[00:43:21.533] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:47:27.043] Server  LOG     ✓ Compiled in 89ms
+[00:47:29.496] Server  LOG     ✓ Compiled in 99ms
+[00:47:34.355] Server  LOG     ✓ Compiled in 78ms
+[00:47:53.404] Server  LOG     ✓ Compiled in 61ms
+[00:47:56.324] Server  LOG     ✓ Compiled in 65ms
+[00:47:59.025] Server  LOG     ✓ Compiled in 59ms
+[00:48:01.632] Server  LOG     ✓ Compiled in 71ms
+[00:48:05.815] Server  LOG     ✓ Compiled in 70ms
+[00:48:08.447] Server  LOG     ✓ Compiled in 55ms
+[00:48:35.472] Server  LOG     ✓ Compiled in 78ms
+[00:48:37.233] Server  LOG     ✓ Compiled in 103ms
+[00:48:39.108] Server  LOG     ✓ Compiled in 64ms
+[00:48:54.886] Server  LOG     ✓ Compiled in 61ms
+[00:49:02.227] Server  LOG     ✓ Compiled in 64ms
+[00:49:10.076] Server  LOG     ✓ Compiled in 62ms
+[00:49:11.614] Server  LOG     ✓ Compiled in 59ms
+[00:49:22.384] Server  LOG     ✓ Compiled in 64ms
+[00:49:23.882] Server  LOG     ✓ Compiled in 62ms
+[00:49:24.986] Server  LOG     ✓ Compiled in 69ms
+[00:49:33.405] Server  LOG     ✓ Compiled in 85ms
+[00:49:35.396] Server  LOG     ✓ Compiled in 73ms
+[00:49:42.833] Server  LOG     ✓ Compiled in 58ms
+[00:49:55.766] Server  LOG     ✓ Compiled in 65ms
+[00:49:58.972] Server  LOG     ✓ Compiled in 60ms
