@@ -49,7 +49,7 @@ export function Footer() {
             Independent type foundry. Crafting typefaces since 2019.
           </p>
           <p className="text-[11px] text-paper/25 mt-6 leading-relaxed">
-            Amsterdam, Netherlands
+            Surabaya, Indonesia
           </p>
         </motion.div>
 

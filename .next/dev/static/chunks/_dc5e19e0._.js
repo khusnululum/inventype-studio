@@ -26,7 +26,24 @@ const fonts = [
             "Bold",
             "Black"
         ],
-        featured: true
+        featured: true,
+        mockups: [
+            {
+                src: "/mockups/vellum-01.jpg",
+                alt: "Vellum set on a luxury magazine cover",
+                caption: "Editorial — Magazine cover, 2024"
+            },
+            {
+                src: "/mockups/vellum-02.jpg",
+                alt: "Vellum used in book typography",
+                caption: "Publishing — Book interior, Thin weight"
+            },
+            {
+                src: "/mockups/vellum-03.jpg",
+                alt: "Vellum on packaging design",
+                caption: "Branding — Perfume packaging"
+            }
+        ]
     },
     {
         id: "struktur",
@@ -49,7 +66,24 @@ const fonts = [
             "ExtraBold",
             "Black"
         ],
-        featured: true
+        featured: true,
+        mockups: [
+            {
+                src: "/mockups/struktur-01.jpg",
+                alt: "Struktur in a corporate identity system",
+                caption: "Identity — Brand system, Bold weight"
+            },
+            {
+                src: "/mockups/struktur-02.jpg",
+                alt: "Struktur used in wayfinding signage",
+                caption: "Signage — Airport wayfinding"
+            },
+            {
+                src: "/mockups/struktur-03.jpg",
+                alt: "Struktur in a digital UI product",
+                caption: "Digital — SaaS product UI"
+            }
+        ]
     },
     {
         id: "nocturne",
@@ -67,7 +101,24 @@ const fonts = [
             "Regular",
             "Bold"
         ],
-        featured: true
+        featured: true,
+        mockups: [
+            {
+                src: "/mockups/nocturne-01.jpg",
+                alt: "Nocturne on a concert poster",
+                caption: "Poster — Music event, Regular weight"
+            },
+            {
+                src: "/mockups/nocturne-02.jpg",
+                alt: "Nocturne on fashion packaging",
+                caption: "Packaging — Fashion brand"
+            },
+            {
+                src: "/mockups/nocturne-03.jpg",
+                alt: "Nocturne as editorial headline",
+                caption: "Editorial — Magazine headline"
+            }
+        ]
     },
     {
         id: "axiom",
@@ -86,7 +137,19 @@ const fonts = [
             "Medium",
             "Bold"
         ],
-        featured: false
+        featured: false,
+        mockups: [
+            {
+                src: "/mockups/axiom-01.jpg",
+                alt: "Axiom in a code editor interface",
+                caption: "Digital — Code editor theme"
+            },
+            {
+                src: "/mockups/axiom-02.jpg",
+                alt: "Axiom in technical documentation",
+                caption: "Docs — Technical manual"
+            }
+        ]
     },
     {
         id: "plume",
@@ -106,7 +169,19 @@ const fonts = [
             "SemiBold",
             "Bold"
         ],
-        featured: false
+        featured: false,
+        mockups: [
+            {
+                src: "/mockups/plume-01.jpg",
+                alt: "Plume in a long-form book",
+                caption: "Publishing — Novel interior"
+            },
+            {
+                src: "/mockups/plume-02.jpg",
+                alt: "Plume on a news website",
+                caption: "Digital — Online news article"
+            }
+        ]
     },
     {
         id: "meridian",
@@ -128,7 +203,19 @@ const fonts = [
             "ExtraBold",
             "Black"
         ],
-        featured: false
+        featured: false,
+        mockups: [
+            {
+                src: "/mockups/meridian-01.jpg",
+                alt: "Meridian in an annual report",
+                caption: "Corporate — Annual report"
+            },
+            {
+                src: "/mockups/meridian-02.jpg",
+                alt: "Meridian in a mobile app",
+                caption: "Digital — Mobile application"
+            }
+        ]
     }
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {

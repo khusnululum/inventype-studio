@@ -2,19 +2,98 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
+import { useState } from "react";
 
 export function HeroSection() {
+  const [imgError, setImgError] = useState(false);
+
   return (
     <section className="relative min-h-screen flex flex-col justify-end pt-16 pb-16 px-8 md:px-16 border-b border-black/10 overflow-hidden">
-      {/* Giant background typeface ticker */}
-      <div className="absolute inset-0 flex items-center overflow-hidden pointer-events-none select-none">
+      {/* ── Background image (foto studio/letterpress) ─────────── */}
+      {!imgError ? (
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/hero-bg.jpg"
+            alt="Inventype Studio — type design workspace"
+            fill
+            priority
+            className="object-cover"
+            onError={() => setImgError(true)}
+          />
+          {/* Overlay: fade bawah lebih kuat supaya teks tetap terbaca */}
+          <div className="absolute inset-0 bg-paper/70" />
+          <div className="absolute inset-0 bg-gradient-to-t from-paper via-paper/60 to-paper/20" />
+        </div>
+      ) : (
+        /* Fallback SVG kalau /hero-bg.jpg belum ada */
+        <div className="absolute inset-0 z-0 overflow-hidden">
+          <svg
+            viewBox="0 0 1440 900"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full h-full"
+          >
+            <rect width="1440" height="900" fill="#f4f3ef" />
+            {/* Grid of blurred type blocks */}
+            {[
+              { x: 60, y: 80, w: 380, h: 260, op: 0.07 },
+              { x: 500, y: 40, w: 520, h: 320, op: 0.05 },
+              { x: 1080, y: 100, w: 300, h: 200, op: 0.06 },
+              { x: 100, y: 420, w: 260, h: 380, op: 0.05 },
+              { x: 420, y: 480, w: 600, h: 380, op: 0.04 },
+              { x: 1100, y: 400, w: 280, h: 440, op: 0.06 },
+            ].map((b, i) => (
+              <rect
+                key={i}
+                x={b.x}
+                y={b.y}
+                width={b.w}
+                height={b.h}
+                rx="2"
+                fill={`rgba(10,10,10,${b.op})`}
+              />
+            ))}
+            {/* Large bg letters */}
+            <text
+              x="50"
+              y="600"
+              fontFamily="Georgia,serif"
+              fontSize="320"
+              fontWeight="300"
+              fill="none"
+              stroke="rgba(10,10,10,0.04)"
+              strokeWidth="1"
+              letterSpacing="-8"
+            >
+              Iv
+            </text>
+            <text
+              x="700"
+              y="500"
+              fontFamily="Georgia,serif"
+              fontSize="220"
+              fontWeight="300"
+              fill="none"
+              stroke="rgba(10,10,10,0.04)"
+              strokeWidth="1"
+              letterSpacing="-4"
+            >
+              ty
+            </text>
+          </svg>
+          <div className="absolute inset-0 bg-gradient-to-t from-paper via-paper/50 to-transparent" />
+        </div>
+      )}
+
+      {/* ── Giant running ticker ────────────────────────────────── */}
+      <div className="absolute inset-0 z-[1] flex items-center overflow-hidden pointer-events-none select-none">
         <div className="animate-ticker whitespace-nowrap flex">
           {[...Array(3)].map((_, i) => (
             <span
               key={i}
               className="font-display text-[18vw] font-light leading-none tracking-tighter text-transparent"
               style={{
-                WebkitTextStroke: "1px rgba(10,10,10,0.06)",
+                WebkitTextStroke: "1.5px rgba(10,10,10,0.12)",
                 paddingRight: "4vw",
                 fontFamily: "var(--font-display), Georgia, serif",
               }}
@@ -25,7 +104,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Content */}
+      {/* ── Main content ────────────────────────────────────────── */}
       <div className="relative z-10 grid md:grid-cols-2 gap-12 items-end">
         {/* Headline */}
         <div>
@@ -109,12 +188,12 @@ export function HeroSection() {
         </motion.div>
       </div>
 
-      {/* Bottom scroll indicator */}
+      {/* Scroll indicator */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 z-10"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
