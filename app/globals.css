@@ -104,3 +104,32 @@ body {
   background: #0a0a0a;
   color: #f4f3ef;
 }
+
+@font-face {
+  font-family: "Square Space";
+  src: url("/fonts/SquareSpace-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Square Space";
+  src: url("/fonts/SquareSpace-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Square Space";
+  src: url("/fonts/SquareSpace-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Square Space";
+  src: url("/fonts/SquareSpace-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

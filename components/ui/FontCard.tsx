@@ -10,7 +10,7 @@ interface FontCardProps {
 }
 
 const previewLetters: Record<string, string> = {
-  vellum: "Vellum",
+  squarespace: "Square Space",
   struktur: "Struktur",
   nocturne: "Nocturne",
   axiom: "Axiom",

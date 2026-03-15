@@ -29,7 +29,12 @@ function MockupPlaceholder({
 }) {
   const patterns = [
     // Pola 1 — magazine spread
-    <svg key="1" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+    <svg
+      key="1"
+      viewBox="0 0 800 520"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full h-full"
+    >
       <rect width="800" height="520" fill="#f0efe9" />
       <rect x="40" y="40" width="340" height="440" fill="#e8e6de" />
       <rect x="420" y="40" width="340" height="210" fill="#dddbd2" />
@@ -37,44 +42,198 @@ function MockupPlaceholder({
       <rect x="600" y="270" width="160" height="100" fill="#d4d2ca" />
       <rect x="600" y="390" width="160" height="90" fill="#e8e6de" />
       {/* Font name large */}
-      <text x="60" y="200" fontFamily="Georgia, serif" fontSize="72" fontWeight="300" fill="rgba(10,10,10,0.18)" letterSpacing="-2">{fontName}</text>
-      <text x="60" y="260" fontFamily="Georgia, serif" fontSize="22" fontWeight="300" fontStyle="italic" fill="rgba(10,10,10,0.25)">Editorial specimen</text>
+      <text
+        x="60"
+        y="200"
+        fontFamily="Georgia, serif"
+        fontSize="72"
+        fontWeight="300"
+        fill="rgba(10,10,10,0.18)"
+        letterSpacing="-2"
+      >
+        {fontName}
+      </text>
+      <text
+        x="60"
+        y="260"
+        fontFamily="Georgia, serif"
+        fontSize="22"
+        fontWeight="300"
+        fontStyle="italic"
+        fill="rgba(10,10,10,0.25)"
+      >
+        Editorial specimen
+      </text>
       {/* Fake body text lines */}
       {[320, 345, 370, 395, 420, 445].map((y) => (
-        <rect key={y} x="60" y={y} width={200 + (y % 3) * 40} height="6" rx="2" fill="rgba(10,10,10,0.1)" />
+        <rect
+          key={y}
+          x="60"
+          y={y}
+          width={200 + (y % 3) * 40}
+          height="6"
+          rx="2"
+          fill="rgba(10,10,10,0.1)"
+        />
       ))}
       {/* Right column lines */}
       {[60, 80, 100, 120, 140, 160, 180].map((y) => (
-        <rect key={y} x="440" y={y} width={260 + (y % 2) * 30} height="5" rx="2" fill="rgba(10,10,10,0.08)" />
+        <rect
+          key={y}
+          x="440"
+          y={y}
+          width={260 + (y % 2) * 30}
+          height="5"
+          rx="2"
+          fill="rgba(10,10,10,0.08)"
+        />
       ))}
     </svg>,
 
     // Pola 2 — poster
-    <svg key="2" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+    <svg
+      key="2"
+      viewBox="0 0 800 520"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full h-full"
+    >
       <rect width="800" height="520" fill="#0a0a0a" />
-      <rect x="60" y="60" width="680" height="400" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" strokeWidth="1" />
-      <text x="400" y="200" fontFamily="Georgia, serif" fontSize="88" fontWeight="300" fill="rgba(255,255,255,0.12)" textAnchor="middle" letterSpacing="-3">{fontName}</text>
-      <text x="400" y="270" fontFamily="Georgia, serif" fontSize="18" fontWeight="300" fontStyle="italic" fill="rgba(255,255,255,0.2)" textAnchor="middle" letterSpacing="4">TYPE SPECIMEN</text>
-      <line x1="200" y1="300" x2="600" y2="300" stroke="rgba(255,255,255,0.08)" strokeWidth="1" />
-      <text x="400" y="340" fontFamily="Georgia, serif" fontSize="13" fill="rgba(255,255,255,0.15)" textAnchor="middle" letterSpacing="3">INVENTYPE STUDIO — 2024</text>
+      <rect
+        x="60"
+        y="60"
+        width="680"
+        height="400"
+        fill="rgba(255,255,255,0.03)"
+        stroke="rgba(255,255,255,0.06)"
+        strokeWidth="1"
+      />
+      <text
+        x="400"
+        y="200"
+        fontFamily="Georgia, serif"
+        fontSize="88"
+        fontWeight="300"
+        fill="rgba(255,255,255,0.12)"
+        textAnchor="middle"
+        letterSpacing="-3"
+      >
+        {fontName}
+      </text>
+      <text
+        x="400"
+        y="270"
+        fontFamily="Georgia, serif"
+        fontSize="18"
+        fontWeight="300"
+        fontStyle="italic"
+        fill="rgba(255,255,255,0.2)"
+        textAnchor="middle"
+        letterSpacing="4"
+      >
+        TYPE SPECIMEN
+      </text>
+      <line
+        x1="200"
+        y1="300"
+        x2="600"
+        y2="300"
+        stroke="rgba(255,255,255,0.08)"
+        strokeWidth="1"
+      />
+      <text
+        x="400"
+        y="340"
+        fontFamily="Georgia, serif"
+        fontSize="13"
+        fill="rgba(255,255,255,0.15)"
+        textAnchor="middle"
+        letterSpacing="3"
+      >
+        INVENTYPE STUDIO — 2024
+      </text>
       {[380, 400, 420].map((y, i) => (
-        <rect key={y} x={120 + i * 20} y={y} width={400 - i * 40} height="4" rx="2" fill="rgba(255,255,255,0.06)" />
+        <rect
+          key={y}
+          x={120 + i * 20}
+          y={y}
+          width={400 - i * 40}
+          height="4"
+          rx="2"
+          fill="rgba(255,255,255,0.06)"
+        />
       ))}
     </svg>,
 
     // Pola 3 — packaging / product
-    <svg key="3" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+    <svg
+      key="3"
+      viewBox="0 0 800 520"
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-full h-full"
+    >
       <rect width="800" height="520" fill="#ede9e0" />
       {/* Box shape */}
-      <rect x="180" y="80" width="440" height="360" fill="#f5f3ec" stroke="rgba(10,10,10,0.1)" strokeWidth="1" />
+      <rect
+        x="180"
+        y="80"
+        width="440"
+        height="360"
+        fill="#f5f3ec"
+        stroke="rgba(10,10,10,0.1)"
+        strokeWidth="1"
+      />
       {/* Lid perspective */}
-      <polygon points="180,80 620,80 680,30 240,30" fill="#e8e4db" stroke="rgba(10,10,10,0.08)" strokeWidth="1" />
-      <polygon points="620,80 680,30 680,390 620,440" fill="#dedad0" stroke="rgba(10,10,10,0.08)" strokeWidth="1" />
+      <polygon
+        points="180,80 620,80 680,30 240,30"
+        fill="#e8e4db"
+        stroke="rgba(10,10,10,0.08)"
+        strokeWidth="1"
+      />
+      <polygon
+        points="620,80 680,30 680,390 620,440"
+        fill="#dedad0"
+        stroke="rgba(10,10,10,0.08)"
+        strokeWidth="1"
+      />
       {/* Label on box */}
-      <rect x="220" y="160" width="360" height="200" fill="rgba(10,10,10,0.03)" />
-      <text x="400" y="260" fontFamily="Georgia, serif" fontSize="52" fontWeight="300" fill="rgba(10,10,10,0.2)" textAnchor="middle" letterSpacing="-1">{fontName}</text>
-      <text x="400" y="295" fontFamily="Georgia, serif" fontSize="11" fill="rgba(10,10,10,0.2)" textAnchor="middle" letterSpacing="4">TYPE FOUNDRY</text>
-      <line x1="280" y1="310" x2="520" y2="310" stroke="rgba(10,10,10,0.1)" strokeWidth="1" />
+      <rect
+        x="220"
+        y="160"
+        width="360"
+        height="200"
+        fill="rgba(10,10,10,0.03)"
+      />
+      <text
+        x="400"
+        y="260"
+        fontFamily="Georgia, serif"
+        fontSize="52"
+        fontWeight="300"
+        fill="rgba(10,10,10,0.2)"
+        textAnchor="middle"
+        letterSpacing="-1"
+      >
+        {fontName}
+      </text>
+      <text
+        x="400"
+        y="295"
+        fontFamily="Georgia, serif"
+        fontSize="11"
+        fill="rgba(10,10,10,0.2)"
+        textAnchor="middle"
+        letterSpacing="4"
+      >
+        TYPE FOUNDRY
+      </text>
+      <line
+        x1="280"
+        y1="310"
+        x2="520"
+        y2="310"
+        stroke="rgba(10,10,10,0.1)"
+        strokeWidth="1"
+      />
     </svg>,
   ];
 
@@ -83,7 +242,9 @@ function MockupPlaceholder({
       {patterns[index % patterns.length]}
       {caption && (
         <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/20 to-transparent px-4 py-3">
-          <p className="text-[9px] tracking-[0.18em] uppercase text-white/60">{caption}</p>
+          <p className="text-[9px] tracking-[0.18em] uppercase text-white/60">
+            {caption}
+          </p>
         </div>
       )}
     </div>
@@ -120,7 +281,11 @@ function MockupItem({
           onError={() => setImgError(true)}
         />
       ) : (
-        <MockupPlaceholder index={index} caption={caption} fontName={fontName} />
+        <MockupPlaceholder
+          index={index}
+          caption={caption}
+          fontName={fontName}
+        />
       )}
 
       {/* Hover overlay */}
@@ -129,7 +294,9 @@ function MockupItem({
       {/* Caption */}
       {caption && !imgError && (
         <div className="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 bg-ink/80 px-4 py-3">
-          <p className="text-[9px] tracking-[0.18em] uppercase text-paper/70">{caption}</p>
+          <p className="text-[9px] tracking-[0.18em] uppercase text-paper/70">
+            {caption}
+          </p>
         </div>
       )}
     </div>
@@ -173,7 +340,11 @@ export function FontDetailClient({ font }: Props) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           className="font-light leading-none tracking-tight mb-6 overflow-hidden"
-          style={{ ...fontStyle, fontSize: `${fontSize}px`, fontStyle: isItalic ? "italic" : "normal" }}
+          style={{
+            ...fontStyle,
+            fontSize: `${fontSize}px`,
+            fontStyle: isItalic ? "italic" : "normal",
+          }}
         >
           {font.name}
         </motion.div>
@@ -197,8 +368,13 @@ export function FontDetailClient({ font }: Props) {
               <p className="text-[10px] tracking-[0.25em] uppercase text-muted mb-3">
                 In Use
               </p>
-              <h2 className="font-display text-[clamp(28px,3.5vw,44px)] font-light leading-none tracking-tight"
-                style={{ fontFamily: "var(--font-display), Georgia, serif" }}>
+              <h2
+                className="font-display text-[clamp(28px,3.5vw,44px)] font-light leading-none tracking-tight"
+                style={{
+                  fontFamily:
+                    font.fontFamily ?? "var(--font-display), Georgia, serif",
+                }}
+              >
                 {font.name} <em className="italic text-muted">in context</em>
               </h2>
             </div>
@@ -241,10 +417,15 @@ export function FontDetailClient({ font }: Props) {
 
           {/* Thumbnail row */}
           {font.mockups!.length > 1 && (
-            <div className={`px-8 md:px-16 pb-14 grid gap-3 ${
-              font.mockups!.length === 2 ? "grid-cols-2" :
-              font.mockups!.length >= 3 ? "grid-cols-3" : "grid-cols-1"
-            }`}>
+            <div
+              className={`px-8 md:px-16 pb-14 grid gap-3 ${
+                font.mockups!.length === 2
+                  ? "grid-cols-2"
+                  : font.mockups!.length >= 3
+                    ? "grid-cols-3"
+                    : "grid-cols-1"
+              }`}
+            >
               {font.mockups!.map((m, i) => (
                 <button
                   key={i}
@@ -272,9 +453,14 @@ export function FontDetailClient({ font }: Props) {
       <section className="border-b border-black/10">
         <div className="px-8 md:px-16 py-4 flex flex-wrap items-center gap-6 border-b border-black/10 bg-ink/[0.015]">
           <div className="flex items-center gap-3">
-            <span className="text-[9px] tracking-[0.2em] uppercase text-muted">Size</span>
+            <span className="text-[9px] tracking-[0.2em] uppercase text-muted">
+              Size
+            </span>
             <input
-              type="range" min={16} max={160} value={fontSize}
+              type="range"
+              min={16}
+              max={160}
+              value={fontSize}
               onChange={(e) => setFontSize(Number(e.target.value))}
               className="w-24 accent-ink"
             />
@@ -291,14 +477,18 @@ export function FontDetailClient({ font }: Props) {
             Italic
           </button>
           <div className="flex items-center gap-2">
-            <span className="text-[9px] tracking-[0.2em] uppercase text-muted">Sample</span>
+            <span className="text-[9px] tracking-[0.2em] uppercase text-muted">
+              Sample
+            </span>
             <select
               value={sampleIdx}
               onChange={(e) => setSampleIdx(Number(e.target.value))}
               className="bg-transparent border border-black/20 text-[10px] px-2 py-1 focus:outline-none text-muted"
             >
               {sampleTexts.map((_, i) => (
-                <option key={i} value={i}>Sample {i + 1}</option>
+                <option key={i} value={i}>
+                  Sample {i + 1}
+                </option>
               ))}
             </select>
           </div>
@@ -329,20 +519,25 @@ export function FontDetailClient({ font }: Props) {
           <p className="text-[10px] tracking-[0.25em] uppercase text-muted mb-5">
             About {font.name}
           </p>
-          <p className="text-[22px] font-light leading-snug mb-6" style={fontStyle}>
+          <p
+            className="text-[22px] font-light leading-snug mb-6"
+            style={fontStyle}
+          >
             {font.description}
           </p>
           <div className="grid grid-cols-3 gap-px bg-black/10 mt-10">
             {[
               { label: "Category", val: font.category },
-              { label: "Styles",   val: `${font.styles}` },
+              { label: "Styles", val: `${font.styles}` },
               { label: "Released", val: `${font.year}` },
             ].map((m) => (
               <div key={m.label} className="bg-paper p-4">
                 <span className="text-[9px] tracking-[0.2em] uppercase text-muted block mb-1">
                   {m.label}
                 </span>
-                <span className="text-[18px] font-light" style={fontStyle}>{m.val}</span>
+                <span className="text-[18px] font-light" style={fontStyle}>
+                  {m.val}
+                </span>
               </div>
             ))}
           </div>
@@ -359,7 +554,10 @@ export function FontDetailClient({ font }: Props) {
           </p>
           <div className="flex flex-col gap-3">
             {font.weights.map((w, i) => (
-              <div key={w} className="flex items-center justify-between py-3 border-b border-black/8">
+              <div
+                key={w}
+                className="flex items-center justify-between py-3 border-b border-black/8"
+              >
                 <span
                   className="text-[20px] leading-none"
                   style={{
@@ -387,7 +585,9 @@ export function FontDetailClient({ font }: Props) {
           <p className="text-[64px] font-light leading-none" style={fontStyle}>
             {font.price}
           </p>
-          <p className="text-[12px] text-muted mt-2">Desktop license · 1-5 users</p>
+          <p className="text-[12px] text-muted mt-2">
+            Desktop license · 1-5 users
+          </p>
         </div>
 
         <div className="flex flex-col gap-4">

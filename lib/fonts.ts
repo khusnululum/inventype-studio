@@ -21,34 +21,35 @@ export interface FontFamily {
 
 export const fonts: FontFamily[] = [
   {
-    id: "vellum",
-    name: "Vellum",
-    tagline: "Refined editorial serif",
-    category: "Serif",
+    id: "squarespace",
+    name: "Square Space",
+    tagline: "Futuristic geometric sans-serif",
+    fontFamily: '"Square Space", sans-serif',
+    category: "Display",
     styles: 12,
-    year: 2024,
+    year: 2022,
     price: "$149",
-    previewText: "Aa",
+    previewText: "Sq",
     previewSize: "text-[160px]",
     description:
-      "A high-contrast editorial serif drawn from 18th-century punchcutter traditions. Vellum brings timeless authority to long-form publishing, luxury branding, and fine print.",
+      "Square Space is a bold futuristic sans-serif built on strict square geometry and razor-sharp corners. Designed for the space age — its uniform stroke weight, cropped terminals, and architectural letterforms command authority on posters, game titles, sci-fi branding, and large-scale display applications. Where other display fonts whisper, Square Space broadcasts.",
     weights: ["Thin", "Light", "Regular", "Medium", "Bold", "Black"],
     featured: true,
     mockups: [
       {
-        src: "/mockups/vellum-01.jpg",
-        alt: "Vellum set on a luxury magazine cover",
-        caption: "Editorial — Magazine cover, 2024",
+        src: "/mockups/squarespace-01.jpg",
+        alt: "Square Space on a sci-fi movie poster",
+        caption: "Poster — Sci-fi film title treatment",
       },
       {
-        src: "/mockups/vellum-02.jpg",
-        alt: "Vellum used in book typography",
-        caption: "Publishing — Book interior, Thin weight",
+        src: "/mockups/squarespace-02.jpg",
+        alt: "Square Space in a game title screen",
+        caption: "Gaming — Title screen, Bold weight",
       },
       {
-        src: "/mockups/vellum-03.jpg",
-        alt: "Vellum on packaging design",
-        caption: "Branding — Perfume packaging",
+        src: "/mockups/squarespace-03.jpg",
+        alt: "Square Space on futuristic packaging",
+        caption: "Branding — Tech product packaging",
       },
     ],
   },
@@ -64,7 +65,16 @@ export const fonts: FontFamily[] = [
     previewSize: "text-[160px]",
     description:
       "A precise geometric grotesque built on strict circular geometry. Struktur excels in corporate identity, wayfinding systems, and UI environments demanding clarity at all scales.",
-    weights: ["Thin", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"],
+    weights: [
+      "Thin",
+      "Light",
+      "Regular",
+      "Medium",
+      "SemiBold",
+      "Bold",
+      "ExtraBold",
+      "Black",
+    ],
     featured: true,
     mockups: [
       {
@@ -182,7 +192,15 @@ export const fonts: FontFamily[] = [
     previewSize: "text-[160px]",
     description:
       "A versatile transitional sans-serif bridging Swiss rationalism and humanist warmth. Ideal for corporate communications, editorial systems, and digital products.",
-    weights: ["Thin", "Light", "Regular", "Medium", "Bold", "ExtraBold", "Black"],
+    weights: [
+      "Thin",
+      "Light",
+      "Regular",
+      "Medium",
+      "Bold",
+      "ExtraBold",
+      "Black",
+    ],
     featured: false,
     mockups: [
       {

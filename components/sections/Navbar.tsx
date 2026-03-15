@@ -59,7 +59,7 @@ export function Navbar() {
         <button
           className="md:hidden flex flex-col gap-1.5 p-1"
           onClick={() => setMenuOpen(!menuOpen)}
-          aria-label="Toggle menu"
+          aria-label= "Toggle menu"
         >
           <motion.span
             animate={menuOpen ? { rotate: 45, y: 8 } : { rotate: 0, y: 0 }}
